@@ -1,0 +1,45 @@
+.first_section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.image{
+    height: 80px;
+    width: 60px;
+  }
+  .contact{
+    margin: 20px 0px;
+  }
+  .second_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+  label{
+
+  }
+  input{
+    right: 20%;
+    width: 60%;
+    height: 30px;
+    font-size: 1.3rem;
+    border: 2px solid;
+    align-items: center;
+  }
+  textarea{
+    width: 80%;
+    font-size: 1.3rem;
+    border: 2px solid;
+    align-items: center;
+  }
+  #submit{
+      left: 80%;
+      width: 80px;
+      height:40px;
+      cursor: pointer;
+      background-color: green;
+  }
